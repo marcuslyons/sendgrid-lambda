@@ -1,0 +1,17 @@
+{
+  "name": "sendgrid-lambda",
+  "version": "1.0.0",
+  "description": "lambda function for sending emails via Sendgrid API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-lambda run"
+  },
+  "author": "Marcus Lyons",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.2.1"
+  },
+  "devDependencies": {
+    "lambda-tester": "^3.2.0"
+  }
+}
