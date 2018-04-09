@@ -4,7 +4,11 @@
   "description": "lambda function for sending emails via Sendgrid API",
   "main": "index.js",
   "scripts": {
-    "test": "node-lambda run"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malyons/sendgrid-lambda.git"
   },
   "author": "Marcus Lyons",
   "license": "MIT",
@@ -12,6 +16,9 @@
     "@sendgrid/mail": "^6.2.1"
   },
   "devDependencies": {
-    "lambda-tester": "^3.2.0"
+    "faker": "^4.1.0",
+    "jest": "^22.4.3",
+    "lambda-tester": "^3.2.0",
+    "mocha": "^5.0.5"
   }
 }
