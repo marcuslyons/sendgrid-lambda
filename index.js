@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 var mailer = require("./mailer.js");
 
