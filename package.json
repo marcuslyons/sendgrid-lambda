@@ -4,6 +4,7 @@
   "description": "lambda function for sending emails via Sendgrid API",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.js",
     "test": "jest"
   },
   "repository": {
@@ -16,9 +17,12 @@
     "@sendgrid/mail": "^6.2.1"
   },
   "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
     "faker": "^4.1.0",
     "jest": "^22.4.3",
     "lambda-tester": "^3.2.0",
-    "mocha": "^5.0.5"
+    "node-lambda": "0.11.7"
   }
 }
