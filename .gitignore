@@ -62,6 +62,7 @@ typings/
 .lambda
 .vscode
 deploy.env
+test/.env*
 
 
 # End of https://www.gitignore.io/api/node

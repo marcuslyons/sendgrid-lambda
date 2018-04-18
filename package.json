@@ -4,6 +4,7 @@
   "description": "lambda function for sending emails via Sendgrid API",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.js",
     "test": "jest"
   },
   "repository": {
