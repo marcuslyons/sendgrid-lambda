@@ -1,7 +1,10 @@
 {
-    "extends": "airbnb-base",
+    "extends": "prettier",
     "env": {
         "jest": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
     },
     "rules": {
         "prefer-template": "off"
