@@ -8,11 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* [node.js](https://nodejs.org/en/download/) - since this is a node function, we need node.js
+* [node.js](https://nodejs.org/en/download/) - 6.10.0
 
 * [npm](https://docs.npmjs.com/getting-started/installing-node) - package manager for node.js
 
-* [nvm](https://github.com/creationix/nvm) - version manager for node.js | this function, lambda-tester, and node-lambda need 6.10.0 to run
+* [nvm](https://github.com/creationix/nvm) - version manager for node.js
 
 ### Instalation
 
@@ -44,10 +44,17 @@ Create a test .env file for Jest
 touch .env-test /test
 ```
 
+example .env-test
+```
+SENDGRID_API_KEY='api-key-here'
+SENDGRID_TO_EMAIL='example@test.com'
+SENDGRID_FROM_EMAIL='example@test.com'
+```
+
 Once you have the .env-test filled out with a valid Sendgrid API key, run the tests to make sure everything is set up correctly
 
 ```
-npm run test
+npm test
 ```
 
 After filling out .env and event.json node-lambda will allow you to run the function locally using what you set. From there just modify to suit your needs.
@@ -59,7 +66,7 @@ node-lambda run
 ## Running the tests
 
 ```
-npm run test
+npm test
 ```
 
 There's currently only 1 test suite that checks for the environment variables to be set for a Sendgrid API key, to and from email, and to make sure error handling within the mail send methods work correctly.
