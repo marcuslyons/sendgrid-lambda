@@ -102,7 +102,7 @@ node-lambda deploy
 4. Push to the branch (git push origin my-new-feature)
 5. Create new Pull Request
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for more details on the code of conduct.
+Please read [CONTRIBUTING.md](https://github.com/malyons/sendgrid-lambda/blob/master/CONTRIBUTING.md) for more details on the code of conduct.
 
 ## Versioning
 
