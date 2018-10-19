@@ -17,6 +17,7 @@
     "@sendgrid/mail": "^6.2.1"
   },
   "devDependencies": {
+    "cryptiles": ">=4.1.2",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
