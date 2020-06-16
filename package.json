@@ -25,6 +25,6 @@
     "jest": "^22.4.3",
     "lambda-tester": "^3.2.0",
     "merge": ">=1.2.1",
-    "node-lambda": "0.11.7"
+    "node-lambda": "0.17.0"
   }
 }
