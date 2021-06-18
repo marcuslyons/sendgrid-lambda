@@ -14,7 +14,7 @@
   "author": "Marcus Lyons",
   "license": "MIT",
   "dependencies": {
-    "@sendgrid/mail": "^6.2.1"
+    "@sendgrid/mail": "^7.4.5"
   },
   "devDependencies": {
     "cryptiles": ">=4.1.2",
